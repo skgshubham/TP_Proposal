@@ -1,0 +1,9 @@
+"Name: \TY:/SCMTMS/CL_VSR_CHECK_VRG\ME:CHK_REQ_DOC_FRM_ONE_PREDEC\SE:BEGIN\EI
+ENHANCEMENT 0 ZEI_VSR_CHECK_VRG.
+
+IF sy-uname = 'CDEEKONDA' OR sy-uname = 'SKUMAR'.
+  IF zcl_tm_tp_multi=>gv_tp_multi = abap_true.
+    RETURN.
+  ENDIF.
+ENDIF.
+ENDENHANCEMENT.

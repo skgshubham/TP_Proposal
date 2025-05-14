@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_TM_TP_MULTI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Transportation Proposal Multi</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_TP_MULTI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_SYNCUP_DATA</CMPNAME>
+     <SCONAME>IO_CHANGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for transaction change objects</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_SYNCUP_DATA</CMPNAME>
+     <SCONAME>IO_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface of Message Object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_SYNCUP_DATA</CMPNAME>
+     <SCONAME>IV_UPDATE_TBO_NODES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RECREATE_RANKLIST</CMPNAME>
+     <SCONAME>IT_MAP_SOL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Map solution to buffer variants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TP_MULTI</CMPNAME>
+     <SCONAME>IO_METHPAR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Method Parameter BASIS</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TP_MULTI</CMPNAME>
+     <SCONAME>IT_REQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requests</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
